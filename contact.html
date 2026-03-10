@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Base Alpha</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f5f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2d3e2f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #4a5c4d;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        form {
+			margin-left: 10px;
+            background: white;
+            padding: 20px;
+            border: 2px solid #2d3e2f;
+            display: inline-block;
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 5px;
+            margin-top: 3px;
+        }
+        input[type="submit"] {
+            background-color: #2d3e2f;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+            padding: 10px;
+        }
+        input[type="submit"]:hover {
+            background-color: #4a5c4d;
+        }
+        footer {
+            background-color: #2d3e2f;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contactez la Base Alpha</h1>
+    </header>
+    <nav>
+        <a href="accueil.html">Accueil</a>
+        <a href="services.html">Unités & Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <br/>
+        <form>
+            <label>Nom :
+                <input type="text" name="nom">	
+            </label>
+            <label>Email :
+                <input type="email" name="email">
+            </label>
+            <label>Message :
+                <textarea name="message"></textarea>
+            </label>
+            <input type="submit" value="Envoyer">
+        </form>
+    </main>
+    <footer>
+        &copy; 2025 Base Militaire Alpha - Tous droits réservés
+    </footer>
+</body>
+</html>
